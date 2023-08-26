@@ -14,7 +14,7 @@ public class CuadradoMagico {
             crearCuadro(matriz);
             imprimirCuadrado(matriz);
             continua = continuarPrograma();
-        }while(continua=='s'||continua=='S');
+        }while(continua=='S'||continua=='s');
         System.out.println("Gracias por participar.");
     }
 
